@@ -4,7 +4,7 @@
 //Date: 10/28/2024
 
 function userNameAlphabetize() {
-    var.userName = window.prompt("What is your name?");
+    var userName = window.prompt("What is your name?");
     //Asks user for their name.
 
     sortName = userName.toLowerCase().split('').sort().join('');
