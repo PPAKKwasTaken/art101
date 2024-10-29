@@ -1,5 +1,5 @@
-//
-//
+//Name Sorter
+//Accepts a user's name as input, then alphabetizes it.
 //Author: Chad Ordonez
 //Date: 10/28/2024
 
@@ -14,5 +14,5 @@ function userNameAlphabetize() {
 }
 
 //output
-document.writeln("I've fixed your name without your permission! Here you go! ",
+document.writeln("I've fixed your name without your permission! Here you go!: ",
     userNameAlphabetize(), "</br>");
