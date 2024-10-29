@@ -13,18 +13,6 @@ function userNameAlphabetize() {
     return sortName;
 }
 
-function userNameCapitalize(name){
-    var userName = name;
-    //Takes the name the user originally typed
-
-    splitName = userName.split('');
-    //splits the name
-
-    properName = splitName[0].toUpperCase().join('');
-    //capitalizes the first letter in splitName, then recombines the list into a new name!
-    
-
-}
 
 //output
 document.writeln("I've fixed your name without your permission! Here you go!: ",
