@@ -8,11 +8,11 @@ function userNameAlphabetize() {
     //Asks user for their name.
 
     sortName = userName.toLowerCase().split('').sort().join('');
-    //Turns a name into an array, sorts it and joins it back together
+    //Turns a name into an array, makes it lowercase, sorts it and joins it back together
 
     return sortName;
 }
 
 //output
-document.writeln("I've fixed your name without your permission! Here you go!",
+document.writeln("I've fixed your name without your permission! Here you go! ",
     userNameAlphabetize(), "</br>");
