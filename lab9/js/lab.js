@@ -1,17 +1,14 @@
-//Name Sorter
-//Accepts a user's name as input, then alphabetizes it.
-//Author: Chad Ordonez
-//Date: 10/28/2024
+/*
+lab.js
 
-function userNameAlphabetize() {
-    var userName = window.prompt("What is your name?");
-    //Asks user for their name.
+Function: Uses buttons
+Requirements: jQuery is loaded
 
-    sortName = userName.toLowerCase().split('').sort().join('');
-    //Turns a name into an array, makes it lowercase, sorts it and joins it back together
+Author: Chad Ordonez
+Date: 11/1/2024
 
-    return sortName;
-}
+*/
+
 
 
 //output
