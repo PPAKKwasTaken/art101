@@ -1,22 +1,30 @@
-//Name Sorter
-//Accepts a user's name as input, then alphabetizes it.
+//Operation functions
+//Some functions that perform multiplication and division
 //Author: Chad Ordonez
-//Date: 10/28/2024
+//Creat3d: 10/31/2024
 
-function userNameAlphabetize() {
-    var userName = window.prompt("What is your name?");
-    //Asks user for their name.
-
-    sortName = userName.toLowerCase().split('').sort().join('');
-    //Turns a name into an array, makes it lowercase, sorts it and joins it back together
-
-    return sortName;
+//Multiplies x
+function doubleIt(x){
+    var results = (x * 2)
+    return results;
 }
 
+//display results in console:
+console.log("If you double 2, you get:", doubleIt(2));
+console.log("If you double 5, you get:", doubleIt(5));
 
-//output
-document.writeln("I've fixed your name without your permission! Here you go!: ",
-    userNameAlphabetize(), "</br>");
+//An array of numbers
+array = [1, 25, 63, 47, 100, 89, 57, 3.14]
+console.log("My array:", array);
 
-    document.writeln("Oh wait. I forgot to capitalize it!: ",
-        userNameCapitalize(userNameAlphabetize), "</br>");
+//divides x by 2
+array.map(function(x){
+    return (x / 2);
+})
+
+//display results in console, again:
+var result = (array.map(function(x){
+    return x / 2;
+}));
+
+console.log("Dividing these numbers by 2 makes:", result);
