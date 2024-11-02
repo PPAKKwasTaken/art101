@@ -15,6 +15,6 @@ $(".minorSection").append("<button id='button-minorSection'>PINK-IFY MY TEXT</bu
 // add a click listener to the challenge button
 $("button-minorSection").click(function(){
     // now add (or subtract) the "special" class to the section
-    $(".minor-section").addClass("special");
+    $(".minor-section").toggleClass("special");
 });
 
