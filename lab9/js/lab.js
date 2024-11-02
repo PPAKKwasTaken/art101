@@ -10,12 +10,12 @@ Date: 11/1/2024
 
 
 // add button to challenge section
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+$(".minorSection").append("<button id='button-minorSection'>PINK-IFY MY TEXT</button>");
 
 // add a click listener to the challenge button
-$("button-challenge").click(function(){
+$("button-minorSection").click(function(){
     // now add (or subtract) the "special" class to the section
-    $("#challenge").toggleClass("special");
+    $(".minor-section").toggleClass("special");
 });
 
 /*
