@@ -10,11 +10,20 @@ Date: 11/1/2024
 
 
 // add button to challenge section
-$(".minor-section").append("<button id='button-minor-section'>PINK-IFY MY TEXT</button>");
+$(".minor-section").append("<button class='button-minor-section'><span>PINK</span>-IFY MY TEXT!</button>");
+
+//$(".button-minor-section")
 
 // add a click listener to the challenge button
-$("#button-minor-section").click(function(){
+$(".button-minor-section").click(function(){
     // now add (or subtract) the "special" class to the section
-    $(".minor-section").toggleClass("special");
-});
+    $(this).parent().toggleClass("special");
+    console.log($(this).parent());
 
+    if ($(this).html() == "UNPINK-IFY MY TEXT!" ){
+        $(this).html("<span>PINK</span>-IFY MY TEXT!")
+    }
+    else {
+        $(this).html("UNPINK-IFY MY TEXT!")
+    }
+});
