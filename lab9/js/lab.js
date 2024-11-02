@@ -9,10 +9,11 @@ Date: 11/1/2024
 */
 
 // adds a button to output section
-$("#output").append("<button id='button-challenge'>Make Special</button>");
+$(".minor-section").append("<button id='button-minorSection'>PINK-IFY MY TEXT!</button>");
 
-// add a click listener to the output button
-$("button-output").click(function(){
+// add a click listener to all minor sections
+$("button-minor-section").click(function(){
     // now add (or subtract) the "special" class to the section
-    $("#output").toggleClass("special");
+    $(".minor-section").toggleClass("special");
 });
+
