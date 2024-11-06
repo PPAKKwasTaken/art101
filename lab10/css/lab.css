@@ -1,0 +1,11 @@
+.special {
+    background-color: rgb(247, 213, 240);
+    border: solid 4px greenyellow;
+    color: hotpink;
+    font-weight: bold;
+}
+
+
+span {
+    color: hotpink;
+}
