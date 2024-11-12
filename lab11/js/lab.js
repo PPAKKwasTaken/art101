@@ -1,8 +1,9 @@
 /*
 lab.js
 
-Function: 
+Function: Sorts a text input into a different combination
 Requirements: jQuery is loaded
+Notes: The following code heavily borrows from the assignment template.
 
 Author: Chad Ordonez
 Date: 11/11/2024
@@ -17,15 +18,14 @@ function sortString(inputString) {
 
 // click listener for button
 $("#submit").click(function(){
-});
-
-// get value of input field
+  // get value of input field
 const userName = $("#user-name").val();
 
-
-// now let's sort it
+// Calls the sortString function to sort the string
 userNameSorted = sortString(userName);
 
-
-// append a new div to our output div
+// Appends a new div to the output div
 $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+
+});
+
