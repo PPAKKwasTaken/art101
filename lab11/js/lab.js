@@ -1,7 +1,7 @@
 /*
 lab.js
 
-Function: Sorts a text input into a different combination
+Function: Sorts a text input into an alphetized anagram
 Requirements: jQuery is loaded
 Notes: The following code heavily borrows from the assignment template.
 
