@@ -25,7 +25,7 @@ const userName = $("#user-name").val();
 userNameSorted = sortString(userName);
 
 // Appends a new div to the output div
-$("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+$("#output").html('<h2 id="magic-name">' + userNameSorted + '</h2>');
 
 });
 
