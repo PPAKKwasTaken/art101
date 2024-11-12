@@ -1,8 +1,5 @@
-.h2 {
-    font-size: 150%
-}
-
 #magic-name {
-    text-decoration-color: chartreuse;
-    text-decoration:solid
+    text-decoration:underline;
+    text-decoration-color:chartreuse;
+    
 }
