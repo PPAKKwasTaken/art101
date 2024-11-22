@@ -8,7 +8,6 @@
 // Functions
 
 // let's get this party started
-main();
 
 //Print the board before each turn
   //Loop through each row

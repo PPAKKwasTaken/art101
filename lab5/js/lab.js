@@ -19,5 +19,3 @@ document.writeln("Color: " + color + "<br>");
 document.writeln("Year: " + year + "<br>");
 document.writeln("Do I own this?: " + ownIt + "<br>");
 document.writeln("Age: " + age + "<br>");
-
-main();

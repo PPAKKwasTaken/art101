@@ -1,5 +1,4 @@
-#magic-name {
-    text-decoration:underline;
-    text-decoration-color:chartreuse;
-    
+#output {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
