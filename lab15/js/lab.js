@@ -30,12 +30,12 @@ $.ajax({
     // Whether this is a POST or GET request
     type: "GET",
     // The type of data we expect back
-    dataType : "json",
+    datatype : "json",
     // What do we do when the api call is successful
     //   all the action goes in here
     success: function(data) {
         // do stuff
-        $("#output").append("<p> " + data + "</p>");
+        $("#output div").html("<p> " + data.value + "</p>");
         console.log(data);
     },
     // What we do if the api call fails
